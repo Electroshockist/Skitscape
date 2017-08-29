@@ -1,0 +1,106 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+    "textures": {
+        "particle": "blocks/rail_detector",
+        "0": "blocks/rail_detector",
+        "1": "blocks/rail_activator"
+    },
+    "elements": [
+        {
+            "name": "Left Rail",
+            "from": [ 2.0, 0.0, 0.0 ], 
+            "to": [ 4.0, 1.0, 16.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 2.0, 0.0, 4.0, 1.0 ], "rotation": 180 },
+                "east": { "texture": "#0", "uv": [ 3.0, 0.0, 4.0, 16.0 ], "rotation": 90 },
+                "south": { "texture": "#0", "uv": [ 2.0, 15.0, 4.0, 16.0 ] },
+                "west": { "texture": "#0", "uv": [ 2.0, 0.0, 3.0, 16.0 ], "rotation": 270 },
+                "up": { "texture": "#0", "uv": [ 2.0, 0.0, 4.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "Right Rail",
+            "from": [ 12.0, 0.0, 0.0 ], 
+            "to": [ 14.0, 1.0, 16.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 12.0, 0.0, 14.0, 1.0 ], "rotation": 180 },
+                "east": { "texture": "#0", "uv": [ 13.0, 0.0, 14.0, 16.0 ], "rotation": 90 },
+                "south": { "texture": "#0", "uv": [ 12.0, 15.0, 14.0, 16.0 ] },
+                "west": { "texture": "#0", "uv": [ 12.0, 0.0, 13.0, 16.0 ], "rotation": 270 },
+                "up": { "texture": "#0", "uv": [ 12.0, 0.0, 14.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "Pressure Pad",
+            "from": [ 6.0, 0.0, 6.0 ], 
+            "to": [ 10.0, 1.5000000074505806, 10.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 6.0, 6.0, 10.0, 7.500000007450581 ] },
+                "east": { "texture": "#0", "uv": [ 9.0, 6.0, 10.0, 10.0 ], "rotation": 90 },
+                "south": { "texture": "#0", "uv": [ 6.0, 9.0, 10.0, 10.50000000745058 ] },
+                "west": { "texture": "#0", "uv": [ 6.0, 6.0, 7.0, 10.0 ], "rotation": 270 },
+                "up": { "texture": "#0", "uv": [ 6.0, 6.0, 10.0, 10.0 ] }
+            }
+        },
+        {
+            "name": "Redstone Square",
+            "from": [ 5.0, 0.0, 5.0 ], 
+            "to": [ 11.0, 0.6999999955296516, 11.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 5.0, 5.0, 11.0, 5.999999995529651 ], "rotation": 180 },
+                "east": { "texture": "#0", "uv": [ 10.0, 5.0, 11.0, 11.0 ], "rotation": 90 },
+                "south": { "texture": "#1", "uv": [ 5.0, 10.0, 11.0, 10.999999995529652 ] },
+                "west": { "texture": "#0", "uv": [ 5.0, 5.0, 6.0, 11.0 ], "rotation": 270 },
+                "up": { "texture": "#0", "uv": [ 5.0, 5.0, 11.0, 11.0 ] }
+            }
+        },
+        {
+            "name": "Bottom Rung",
+            "from": [ 1.0, 0.0, 13.0 ], 
+            "to": [ 15.0, 0.6999999955296516, 15.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 1.0, 13.0, 15.0, 13.699999995529652 ], "rotation": 180 },
+                "east": { "texture": "#0", "uv": [ 14.0, 13.0, 15.0, 15.0 ], "rotation": 90 },
+                "south": { "texture": "#0", "uv": [ 1.0, 14.0, 15.0, 14.699999995529652 ] },
+                "west": { "texture": "#0", "uv": [ 1.0, 13.0, 2.0, 15.0 ], "rotation": 270 },
+                "up": { "texture": "#0", "uv": [ 1.0, 13.0, 15.0, 15.0 ] }
+            }
+        },
+        {
+            "name": "Second From Bottom Rung",
+            "from": [ 1.0, 0.0, 9.0 ], 
+            "to": [ 15.0, 0.6999999955296516, 11.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 1.0, 9.0, 15.0, 9.699999995529652 ], "rotation": 180 },
+                "east": { "texture": "#0", "uv": [ 14.0, 9.0, 15.0, 11.0 ], "rotation": 90 },
+                "south": { "texture": "#0", "uv": [ 1.0, 10.0, 15.0, 10.699999995529652 ] },
+                "west": { "texture": "#0", "uv": [ 1.0, 9.0, 2.0, 11.0 ], "rotation": 270 },
+                "up": { "texture": "#0", "uv": [ 1.0, 9.0, 15.0, 11.0 ] }
+            }
+        },
+        {
+            "name": "Second From Top Rung",
+            "from": [ 1.0, 0.0, 5.0 ], 
+            "to": [ 15.0, 0.6999999955296516, 7.0 ], 
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 1.0, 5.0, 15.0, 5.699999995529652 ], "rotation": 180 },
+                "east": { "texture": "#1", "uv": [ 14.0, 5.0, 15.0, 7.0 ], "rotation": 90 },
+                "south": { "texture": "#1", "uv": [ 1.0, 6.0, 15.0, 6.699999995529652 ] },
+                "west": { "texture": "#1", "uv": [ 1.0, 5.0, 2.0, 7.0 ], "rotation": 270 },
+                "up": { "texture": "#1", "uv": [ 1.0, 5.0, 15.0, 7.0 ] }
+            }
+        },
+        {
+            "name": "Top Rung",
+            "from": [ 1.0, 0.0, 1.0 ], 
+            "to": [ 15.0, 0.6999999955296516, 3.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 1.0, 1.0, 15.0, 2.0 ], "rotation": 180 },
+                "east": { "texture": "#0", "uv": [ 14.0, 1.0, 15.0, 3.0 ], "rotation": 90 },
+                "south": { "texture": "#0", "uv": [ 1.0, 2.0, 15.0, 3.0 ] },
+                "west": { "texture": "#0", "uv": [ 1.0, 1.0, 2.0, 3.0 ], "rotation": 270 },
+                "up": { "texture": "#0", "uv": [ 1.0, 1.0, 15.0, 3.0 ] }
+            }
+        }
+    ]
+}

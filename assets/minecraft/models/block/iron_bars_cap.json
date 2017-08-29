@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"textures": {
+		"0": "blocks/iron_bars",
+		"particle": "blocks/iron_bars"
+	},
+	"elements": [
+		{
+			"name": "Central Top Pillar",
+			"from": [7, 7, 7],
+			"to": [9, 16, 9],
+			"shade": true,
+			"faces": {
+				"north": {"uv": [0, 0, 1, 9], "texture": "#0"},
+				"east": {"uv": [0, 0, 1, 9], "texture": "#0"},
+				"south": {"uv": [0, 0, 1, 9], "texture": "#0"},
+				"west": {"uv": [0, 0, 1, 9], "texture": "#0"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Central Bottom Pillar",
+			"from": [7, 0, 7],
+			"to": [9, 7, 9],
+			"shade": true,
+			"faces": {
+				"north": {"uv": [7, 9, 9, 16], "texture": "#0"},
+				"east": {"uv": [7, 9, 9, 16], "texture": "#0"},
+				"south": {"uv": [7, 9, 9, 16], "texture": "#0"},
+				"west": {"uv": [7, 9, 9, 16], "texture": "#0"},
+				"down": {"uv": [7, 14, 9, 16], "texture": "#0"}
+			}
+		}
+	]
+}
