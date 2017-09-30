@@ -6,11 +6,7 @@
 		"1": "blocks/furnace_front_on",
 		"2": "blocks/furnace_bed_burning",
 		"3": "blocks/furnace_inner_side_burning",
-<<<<<<< HEAD
 		"5": "blocks/furnace_front_on",
-=======
-		"5": "blocks/furnace_front_off",
->>>>>>> e47da38e3488dee2bd25bc14cc7b63d94b8b512e
 		"6": "blocks/coal_block",
 		"7": "blocks/furnace_inner_top",
 		"particle": "blocks/furnace_front_on"
@@ -415,12 +411,8 @@
 					"uv": [1, 8, 4, 9],
 					"texture": "#1",
 					"rotation": 180
-<<<<<<< HEAD
 				},
 				"down": {"uv": [1, 9, 4, 10], "texture": "#5"}
-=======
-				}
->>>>>>> e47da38e3488dee2bd25bc14cc7b63d94b8b512e
 			},
 			"rotation": {
 				"origin": [8, 8, 8],
@@ -603,7 +595,6 @@
 		{
 			"name": "South Outer Keystone",
 			"from": [6, 11, -1],
-<<<<<<< HEAD
 			"to": [10, 14, 0],
 			"shade": true,
 			"faces": {
@@ -612,16 +603,6 @@
 				"west": {"uv": [9, 2, 10, 5], "texture": "#1"},
 				"up": {
 					"uv": [6, 2, 10, 3],
-=======
-			"to": [10, 15, 0],
-			"shade": true,
-			"faces": {
-				"north": {"uv": [6, 1, 10, 5], "texture": "#1"},
-				"east": {"uv": [6, 1, 7, 5], "texture": "#5"},
-				"west": {"uv": [9, 1, 10, 5], "texture": "#1"},
-				"up": {
-					"uv": [6, 1, 10, 2],
->>>>>>> e47da38e3488dee2bd25bc14cc7b63d94b8b512e
 					"texture": "#1",
 					"rotation": 180
 				},

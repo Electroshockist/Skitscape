@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"parent": "block/block",
 	"textures": {
-		"0": "blocks/log_big_oak_top",
-		"1": "blocks/log_big_oak",
-		"particle": "blocks/log_big_oak"
+		"0": "blocks/log_oak_top",
+		"1": "blocks/log_oak",
+		"particle": "blocks/log_oak"
 	},
 	"elements": [
 		{
