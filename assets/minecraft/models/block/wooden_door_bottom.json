@@ -1,8 +1,8 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
     "textures": {
-        "particle": "blocks/door_wood_lower",
-        "0": "blocks/door_wood_lower"
+        "particle": "block/door_wood_lower",
+        "0": "block/door_wood_lower"
     },
     "elements": [
         {

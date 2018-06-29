@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"parent": "block/block",
 	"textures": {
-		"0": "blocks/redstone_ore",
-		"particle": "blocks/redstone_ore"
+		"0": "block/redstone_ore",
+		"particle": "block/redstone_ore"
 	},
 	"elements": [
 		{
