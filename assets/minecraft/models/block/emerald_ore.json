@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"parent": "block/block",
 	"textures": {
-		"0": "blocks/emerald_ore",
-		"particle": "blocks/emerald_ore"
+		"0": "block/emerald_ore",
+		"particle": "block/emerald_ore"
 	},
 	"elements": [
 		{

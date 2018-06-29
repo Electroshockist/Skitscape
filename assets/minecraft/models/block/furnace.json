@@ -2,14 +2,14 @@
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"parent": "block/block",
 	"textures": {
-		"0": "blocks/furnace_top",
-		"1": "blocks/furnace_front_off",
-		"2": "blocks/furnace_bed",
-		"3": "blocks/furnace_inner_side",
-		"5": "blocks/furnace_front_off",
-		"6": "blocks/coal_block",
-		"7": "blocks/furnace_inner_top",
-		"particle": "blocks/furnace_front_off"
+		"0": "block/furnace_top",
+		"1": "block/furnace_front_off",
+		"2": "block/furnace_bed",
+		"3": "block/furnace_inner_side",
+		"5": "block/furnace_front_off",
+		"6": "block/coal_block",
+		"7": "block/furnace_inner_top",
+		"particle": "block/furnace_front_off"
 	},
 	"elements": [
 		{

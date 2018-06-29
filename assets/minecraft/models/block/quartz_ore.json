@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"parent": "block/block",
 	"textures": {
-		"0": "blocks/quartz_ore",
-		"particle": "blocks/quartz_ore"
+		"0": "block/quartz_ore",
+		"particle": "block/quartz_ore"
 	},
 	"elements": [
 		{

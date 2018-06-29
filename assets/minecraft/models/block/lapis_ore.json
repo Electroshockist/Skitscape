@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"parent": "block/block",
 	"textures": {
-		"0": "blocks/lapis_ore",
-		"particle": "blocks/lapis_ore"
+		"0": "block/lapis_ore",
+		"particle": "block/lapis_ore"
 	},
 	"elements": [
 		{

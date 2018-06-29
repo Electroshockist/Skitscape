@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"parent": "block/block",
 	"textures": {
-		"0": "blocks/red_nether_brick",
-		"particle": "blocks/red_nether_brick"
+		"0": "block/red_nether_brick",
+		"particle": "block/red_nether_brick"
 	},
 	"elements": [
 		{

@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"parent": "block/block",
 	"textures": {
-		"0": "blocks/cobblestone",
-		"particle": "blocks/cobblestone"
+		"0": "block/cobblestone",
+		"particle": "block/cobblestone"
 	},
 	"elements": [
 		{

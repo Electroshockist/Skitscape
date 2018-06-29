@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"parent": "block/block",
 	"textures": {
-		"0": "blocks/gold_ore",
-		"particle": "blocks/gold_ore"
+		"0": "block/gold_ore",
+		"particle": "block/gold_ore"
 	},
 	"elements": [
 		{

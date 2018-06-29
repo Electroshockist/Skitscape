@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"parent": "block/block",
 	"textures": {
-		"0": "blocks/end_stone",
-		"particle": "blocks/end_stone"
+		"0": "block/end_stone",
+		"particle": "block/end_stone"
 	},
 	"elements": [
 		{
