@@ -1,8 +1,8 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
     "textures": {
-        "particle": "block/door_wood_lower",
-        "0": "block/door_wood_lower"
+        "particle": "block/oak_door_bottom",
+        "0": "block/oak_door_bottom"
     },
     "elements": [
         {
@@ -10,17 +10,17 @@
             "from": [ 0.0, 0.0, 0.0 ], 
             "to": [ 3.0, 16.0, 16.0 ], 
             "faces": {
-                "north": { "texture": "#0", "uv": [ 15.0, 0.0, 16.0, 16.0 ] },
-                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
-                "south": { "texture": "#0", "uv": [ 1.0, 0.0, 0.0, 16.0 ] },
-                "west": { "texture": "#0", "uv": [ 16.0, 0.0, 0.0, 16.0 ] },
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 16.0 ] },
+                "east": { "texture": "#0", "uv": [ 16.0, 0.0, 0.0, 16.0 ] },
+                "south": { "texture": "#0", "uv": [ 16.0, 0.0, 15.0, 16.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
                 "down": { "texture": "#0", "uv": [ 0.0, 15.0, 16.0, 16.0 ], "rotation": 90 }
             }
         },
         {
             "name": "Handle outer",
-            "from": [ -1.0, 14.0, 2.0 ], 
-            "to": [ 0.0, 16.0, 4.0 ], 
+            "from": [ -1.0, 14.0, 12.0 ], 
+            "to": [ 0.0, 16.0, 14.0 ], 
             "faces": {
                 "north": { "texture": "#0", "uv": [ 12.0, 0.0, 13.0, 2.0 ] },
                 "south": { "texture": "#0", "uv": [ 13.0, 0.0, 14.0, 2.0 ] },
@@ -31,8 +31,8 @@
         },
         {
             "name": "Handle inner",
-            "from": [ 3.0, 14.0, 2.0 ], 
-            "to": [ 4.0, 16.0, 4.0 ], 
+            "from": [ 3.0, 14.0, 12.0 ], 
+            "to": [ 4.0, 16.0, 14.0 ], 
             "faces": {
                 "north": { "texture": "#0", "uv": [ 13.0, 0.0, 14.0, 2.0 ] },
                 "east": { "texture": "#0", "uv": [ 12.0, 0.0, 14.0, 2.0 ] },

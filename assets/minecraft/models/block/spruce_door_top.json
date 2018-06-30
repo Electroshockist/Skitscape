@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"textures": {
-		"0": "block/door_spruce_upper",
-		"particle": "block/door_spruce_upper"
+		"0": "block/spruce_door_top",
+		"particle": "block/spruce_door_top"
 	},
 	"elements": [
 		{
@@ -119,7 +119,11 @@
 			"to": [2, 4, 13],
 			"shade": true,
 			"faces": {
-				"east": {"uv": [3, 12, 13, 16], "texture": "#0"},
+				"east": {
+					"uv": [13, 12, 3, 16],
+					"texture": "#0",
+					"cullface": "east"
+				},
 				"west": {"uv": [3, 12, 13, 16], "texture": "#0"}
 			}
 		}

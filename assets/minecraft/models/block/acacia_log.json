@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"parent": "block/block",
 	"textures": {
-		"0": "block/log_acacia_top",
-		"1": "block/log_acacia",
-		"particle": "block/log_acacia"
+		"0": "block/acacia_log_top",
+		"1": "block/acacia_log",
+		"particle": "block/acacia_log"
 	},
 	"elements": [
 		{

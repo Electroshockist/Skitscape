@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"textures": {
-		"0": "block/door_spruce_lower",
-		"1": "block/door_spruce_upper",
-		"particle": "block/door_spruce_lower"
+		"0": "block/spruce_door_bottom",
+		"1": "block/spruce_door_top",
+		"particle": "block/spruce_door_top"
 	},
 	"elements": [
 		{
