@@ -2,11 +2,11 @@
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"parent": "block/block",
 	"textures": {
-		"0": "block/pumpkin_face_on",
+		"0": "block/jack_o_lantern",
 		"1": "block/pumpkin_side",
 		"2": "block/pumpkin_bottom",
 		"3": "block/pumpkin_top",
-		"particle": "block/pumpkin_face_on"
+		"particle": "block/jack_o_lantern"
 	},
 	"elements": [
 		{

@@ -1,9 +1,8 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
     "textures": {
-        "particle": "block/rail_detector",
-        "0": "block/rail_detector",
-        "1": "block/rail_activator"
+        "particle": "block/detector_rail",
+        "0": "block/detector_rail",
     },
     "elements": [
         {
@@ -49,7 +48,7 @@
             "faces": {
                 "north": { "texture": "#0", "uv": [ 5.0, 5.0, 11.0, 5.999999995529651 ], "rotation": 180 },
                 "east": { "texture": "#0", "uv": [ 10.0, 5.0, 11.0, 11.0 ], "rotation": 90 },
-                "south": { "texture": "#1", "uv": [ 5.0, 10.0, 11.0, 10.999999995529652 ] },
+                "south": { "texture": "#0", "uv": [ 5.0, 10.0, 11.0, 10.999999995529652 ] },
                 "west": { "texture": "#0", "uv": [ 5.0, 5.0, 6.0, 11.0 ], "rotation": 270 },
                 "up": { "texture": "#0", "uv": [ 5.0, 5.0, 11.0, 11.0 ] }
             }
@@ -83,11 +82,11 @@
             "from": [ 1.0, 0.0, 5.0 ], 
             "to": [ 15.0, 0.6999999955296516, 7.0 ], 
             "faces": {
-                "north": { "texture": "#1", "uv": [ 1.0, 5.0, 15.0, 5.699999995529652 ], "rotation": 180 },
-                "east": { "texture": "#1", "uv": [ 14.0, 5.0, 15.0, 7.0 ], "rotation": 90 },
-                "south": { "texture": "#1", "uv": [ 1.0, 6.0, 15.0, 6.699999995529652 ] },
-                "west": { "texture": "#1", "uv": [ 1.0, 5.0, 2.0, 7.0 ], "rotation": 270 },
-                "up": { "texture": "#1", "uv": [ 1.0, 5.0, 15.0, 7.0 ] }
+                "north": { "texture": "#0", "uv": [ 1.0, 5.0, 15.0, 5.699999995529652 ], "rotation": 180 },
+                "east": { "texture": "#0", "uv": [ 14.0, 5.0, 15.0, 7.0 ], "rotation": 90 },
+                "south": { "texture": "#0", "uv": [ 1.0, 6.0, 15.0, 6.699999995529652 ] },
+                "west": { "texture": "#0", "uv": [ 1.0, 5.0, 2.0, 7.0 ], "rotation": 270 },
+                "up": { "texture": "#0", "uv": [ 1.0, 5.0, 15.0, 7.0 ] }
             }
         },
         {
