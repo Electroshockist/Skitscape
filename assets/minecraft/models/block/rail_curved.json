@@ -1,8 +1,8 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
     "textures": {
-        "particle": "block/rail_curved",
-        "0": "block/rail_curved"
+        "particle": "block/rail_corner",
+        "0": "block/rail_corner"
     },
     "elements": [
         {
