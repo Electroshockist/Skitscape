@@ -14,6 +14,11 @@ Instructions:
 	To remove 3D models, 
 		go to assets>minecraft and delete/rename models or delete/rename specfic models in the subfolders
 		
+		
+	To enable netherbrick 3D model
+		go to assets>minecraft>models>block and remove the first underscore(_) from _nether_bricks.json
+		This will cause lag in the nether. Beware.
+		
 	
 	To change a texture to one of the alternate ones just delete or rename the current texture and remove "_alt" from the end of the textures
 		List of all alternate textures:
