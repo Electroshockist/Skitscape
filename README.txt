@@ -24,5 +24,5 @@ Instructions:
 		List of all alternate textures:
 			Shortform Description	File location
 			Opaque Pumpkin blur				assets>minecraft>textures>misc>pumpkinblur.png
-			Bright Main Menu Background		assets>minecraft>gui>title>background
+			Bright Main Menu Background		assets>minecraft>textures>gui>title>background.png
 			Old Dispenser GUI				assets>minecraft>textures>gui>container>dispenser.png
