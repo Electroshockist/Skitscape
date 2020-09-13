@@ -1,5 +1,5 @@
 {
-	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/spruce_door_top",
 		"particle": "block/spruce_door_top"
@@ -9,29 +9,19 @@
 			"name": "Base",
 			"from": [0, 4, 0],
 			"to": [3, 8, 16],
-			"shade": true,
 			"faces": {
 				"north": {"uv": [15, 8, 16, 12], "texture": "#0"},
 				"east": {"uv": [0, 8, 16, 12], "texture": "#0"},
 				"south": {"uv": [0, 8, 1, 12], "texture": "#0"},
 				"west": {"uv": [0, 8, 16, 12], "texture": "#0"},
-				"up": {
-					"uv": [0, 8, 16, 9],
-					"texture": "#0",
-					"rotation": 90
-				},
-				"down": {
-					"uv": [0, 12, 16, 13],
-					"texture": "#0",
-					"rotation": 270
-				}
+				"up": {"uv": [0, 8, 16, 9], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 12, 16, 13], "rotation": 270, "texture": "#0"}
 			}
 		},
 		{
 			"name": "Left bar",
 			"from": [0, 8, 0],
 			"to": [3, 10, 4],
-			"shade": true,
 			"faces": {
 				"north": {"uv": [0, 6, 1, 8], "texture": "#0"},
 				"east": {"uv": [12, 6, 16, 8], "texture": "#0"},
@@ -43,7 +33,6 @@
 			"name": "Right bar",
 			"from": [0, 8, 12],
 			"to": [3, 10, 16],
-			"shade": true,
 			"faces": {
 				"north": {"uv": [12, 6, 13, 8], "texture": "#0"},
 				"east": {"uv": [0, 6, 4, 8], "texture": "#0"},
@@ -55,29 +44,19 @@
 			"name": "Top",
 			"from": [0, 10, 0],
 			"to": [3, 16, 16],
-			"shade": true,
 			"faces": {
 				"north": {"uv": [15, 0, 16, 6], "texture": "#0"},
 				"east": {"uv": [0, 0, 16, 6], "texture": "#0"},
 				"south": {"uv": [15, 0, 16, 6], "texture": "#0"},
 				"west": {"uv": [0, 0, 16, 6], "texture": "#0"},
-				"up": {
-					"uv": [0, 0, 16, 1],
-					"texture": "#0",
-					"rotation": 90
-				},
-				"down": {
-					"uv": [0, 5, 16, 6],
-					"texture": "#0",
-					"rotation": 270
-				}
+				"up": {"uv": [0, 0, 16, 1], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 5, 16, 6], "rotation": 270, "texture": "#0"}
 			}
 		},
 		{
 			"name": "Left",
 			"from": [0, 0, 0],
 			"to": [3, 4, 3],
-			"shade": true,
 			"faces": {
 				"north": {"uv": [0, 12, 1, 16], "texture": "#0"},
 				"east": {"uv": [13, 12, 16, 16], "texture": "#0"},
@@ -89,14 +68,9 @@
 			"name": "Middle",
 			"from": [0, 0, 7],
 			"to": [3, 4, 9],
-			"shade": true,
 			"faces": {
 				"north": {"uv": [6, 12, 7, 16], "texture": "#0"},
-				"east": {
-					"uv": [7, 12, 9, 16],
-					"texture": "#0",
-					"rotation": 180
-				},
+				"east": {"uv": [7, 12, 9, 16], "rotation": 180, "texture": "#0"},
 				"south": {"uv": [9, 12, 10, 16], "texture": "#0"},
 				"west": {"uv": [7, 12, 9, 16], "texture": "#0"}
 			}
@@ -105,7 +79,6 @@
 			"name": "Right",
 			"from": [0, 0, 13],
 			"to": [3, 4, 16],
-			"shade": true,
 			"faces": {
 				"north": {"uv": [12, 12, 13, 16], "texture": "#0"},
 				"east": {"uv": [0, 12, 3, 16], "texture": "#0"},
@@ -117,13 +90,8 @@
 			"name": "Thin Base",
 			"from": [1, 0, 3],
 			"to": [2, 4, 13],
-			"shade": true,
 			"faces": {
-				"east": {
-					"uv": [13, 12, 3, 16],
-					"texture": "#0",
-					"cullface": "east"
-				},
+				"east": {"uv": [13, 12, 3, 16], "texture": "#0"},
 				"west": {"uv": [3, 12, 13, 16], "texture": "#0"}
 			}
 		}
