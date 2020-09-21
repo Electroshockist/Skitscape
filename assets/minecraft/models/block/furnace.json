@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"parent": "block/block",
+	"ambientocclusion": false,
 	"textures": {
 		"0": "block/furnace_top",
 		"1": "block/furnace_front_off",
