@@ -1,5 +1,5 @@
 {
-	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/iron_bars",
 		"particle": "block/iron_bars"
@@ -9,16 +9,11 @@
 			"name": "Central Pillar",
 			"from": [7, 1, 7],
 			"to": [9, 9, 9],
-			"shade": true,
 			"faces": {
-				"north": {"uv": [7, 7, 9, 15], "texture": "#0"},
+				"north": {"uv": [8, 7, 9, 15], "texture": "#0"},
 				"east": {"uv": [7, 7, 9, 15], "texture": "#0"},
 				"south": {"uv": [7, 8, 8, 16], "texture": "#0"},
-				"west": {
-					"uv": [7, 8, 9, 16],
-					"texture": "#0",
-					"rotation": 180
-				},
+				"west": {"uv": [7, 8, 9, 16], "rotation": 180, "texture": "#0"},
 				"up": {"uv": [7, 7, 9, 8], "texture": "#0"}
 			}
 		},
@@ -26,69 +21,44 @@
 			"name": "Central Square",
 			"from": [7, 15, 7],
 			"to": [9, 16, 16],
-			"shade": true,
 			"faces": {
-				"north": {"uv": [7, 0, 9, 1], "texture": "#0"},
+				"north": {"uv": [8, 0, 9, 1], "texture": "#0"},
 				"east": {"uv": [0, 0, 9, 1], "texture": "#0"},
-				"south": {"uv": [7, 0, 9, 1], "texture": "#0"},
+				"south": {"uv": [15, 0, 16, 1], "texture": "#0"},
 				"west": {"uv": [0, 0, 9, 1], "texture": "#0"},
-				"up": {
-					"uv": [0, 0, 9, 1],
-					"texture": "#0",
-					"rotation": 90
-				},
-				"down": {
-					"uv": [0, 0, 9, 1],
-					"texture": "#0",
-					"rotation": 90
-				}
+				"up": {"uv": [0, 0, 9, 1], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 0, 9, 1], "rotation": 90, "texture": "#0"}
 			}
 		},
 		{
 			"name": "Bottom Rectangle",
 			"from": [7, 0, 7],
 			"to": [9, 1, 16],
-			"shade": true,
 			"faces": {
-				"north": {"uv": [14, 15, 16, 16], "texture": "#0"},
+				"north": {"uv": [8, 15, 9, 16], "texture": "#0"},
 				"east": {"uv": [0, 15, 9, 16], "texture": "#0"},
-				"south": {"uv": [0, 15, 2, 16], "texture": "#0"},
+				"south": {"uv": [15, 15, 16, 16], "texture": "#0"},
 				"west": {"uv": [0, 15, 9, 16], "texture": "#0"},
-				"up": {
-					"uv": [0, 15, 9, 16],
-					"texture": "#0",
-					"rotation": 90
-				},
-				"down": {"uv": [0, 15, 9, 16], "texture": "#0"}
+				"up": {"uv": [0, 15, 9, 16], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 15, 9, 16], "rotation": 90, "texture": "#0"}
 			}
 		},
 		{
 			"name": "Middle Rectangle",
 			"from": [7, 7, 9],
 			"to": [9, 9, 16],
-			"shade": true,
 			"faces": {
 				"north": {"uv": [7, 7, 9, 9], "texture": "#0"},
 				"east": {"uv": [0, 7, 7, 9], "texture": "#0"},
 				"south": {"uv": [0, 7, 1, 8], "texture": "#0"},
 				"west": {"uv": [0, 7, 7, 9], "texture": "#0"},
-				"up": {
-					"uv": [0, 7, 9, 8],
-					"texture": "#0",
-					"rotation": 90
-				},
-				"down": {
-					"uv": [0, 7, 7, 8],
-					"texture": "#0",
-					"rotation": 90
-				}
+				"up": {"uv": [0, 7, 9, 8], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 7, 7, 8], "rotation": 90, "texture": "#0"}
 			}
 		},
 		{
-			"name": "cube",
 			"from": [7, 9, 15],
 			"to": [9, 15, 16],
-			"shade": true,
 			"faces": {
 				"north": {"uv": [0, 1, 1, 7], "texture": "#0"},
 				"east": {"uv": [15, 1, 16, 7], "texture": "#0"},
